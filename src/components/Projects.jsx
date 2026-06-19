@@ -1,7 +1,7 @@
 function Projects() {
   const gridProjects = [
     {
-      img: "/img2.jpeg",
+      img: "./img2.jpeg",
       title: "Notes App",
       desc: "Full-stack notes application with modern UI, authentication and productivity-focused workflow.",
       tags: ["React", "Node.js", "MongoDB"],
@@ -9,7 +9,7 @@ function Projects() {
       live: "https://notes-app-peach-beta.vercel.app/",
     },
     {
-      img: "/img3.jpeg",
+      img: "./img3.jpeg",
       title: "YouTube Clone",
       desc: "Responsive YouTube-inspired platform built with modern frontend technologies and clean UX.",
       tags: ["React", "API", "CSS"],
@@ -37,7 +37,7 @@ function Projects() {
           ))}
         </div>
         <video
-          src="/vid1.mp4"
+          src="./vid1.mp4"
           autoPlay
           muted
           loop

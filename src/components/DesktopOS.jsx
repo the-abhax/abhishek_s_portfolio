@@ -4,7 +4,7 @@ const NAV_ITEMS = [
   { icon: "👤", label: "About", href: "#about" },
   { icon: "🚀", label: "Projects", href: "#projects" },
   { icon: "📬", label: "Contact", href: "#contact" },
-  { icon: "📄", label: "Resume", href: "/abhishek_s_resume.pdf", external: true },
+  { icon: "📄", label: "Resume", href: "./abhishek_s_resume.pdf", external: true },
 ];
 
 function DesktopOS({ isOpen, onClose }) {

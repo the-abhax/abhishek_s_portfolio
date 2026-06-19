@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 import { useFrame } from "@react-three/fiber";
 
 function HeroScene({ onMonitorClick }) {
-  const { scene } = useGLTF("/models/workstation.glb");
+  const { scene } = useGLTF("./models/workstation.glb");
   const groupRef = useRef();
   const [hovered, setHovered] = useState(false);
 
@@ -47,4 +47,4 @@ function HeroScene({ onMonitorClick }) {
 }
 
 export default HeroScene;
-useGLTF.preload("/models/workstation.glb");
+useGLTF.preload("./models/workstation.glb");

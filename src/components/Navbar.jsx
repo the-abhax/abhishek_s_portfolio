@@ -38,7 +38,7 @@ function Navbar() {
             </button>
           ))}
           <a
-            href="/abhishek_s_resume.pdf"
+            href="./abhishek_s_resume.pdf"
             target="_blank"
             rel="noreferrer"
             className="nav-resume"
@@ -59,7 +59,7 @@ function Navbar() {
           {links.map((l) => (
             <button key={l.label} onClick={() => scrollTo(l.href)}>{l.label}</button>
           ))}
-          <a href="/abhishek_s_resume.pdf" target="_blank" rel="noreferrer" onClick={() => setMenuOpen(false)}>
+          <a href="./abhishek_s_resume.pdf" target="_blank" rel="noreferrer" onClick={() => setMenuOpen(false)}>
             Resume ↗
           </a>
         </div>

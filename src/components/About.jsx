@@ -11,7 +11,7 @@ function About() {
       <div className="about-grid">
         <div className="about-image">
           <div className="about-img-wrap">
-            <img src="/img1.jpeg" alt="Abhishek S" />
+            <img src="./img1.jpeg" alt="Abhishek S" />
             <div className="about-img-glow" />
           </div>
         </div>
